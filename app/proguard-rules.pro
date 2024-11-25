@@ -19,3 +19,10 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+-keepclassmembers class com.luczka.miquidorecruitment.data.remote.dto.** { <fields>; }
+-keepattributes RuntimeVisibleAnnotations
+-keepnames class com.luczka.miquidorecruitment.data.remote.dto.** { *; }
+-keep class com.google.gson.** { *; }
+-keepnames class kotlinx.serialization.** { *; }
+-keep @kotlinx.serialization.Serializable class * { *; }

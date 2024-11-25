@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Miquido Recruitment Task</string>
+
+    <string name="image_description_app_logo">App logo</string>
+
+    <string name="action_retry">Retry</string>
+
+    <string name="error_network">Unable to connect. Please check your internet connection.</string>
+    <string name="error_server">Server error occurred.</string>
+    <string name="error_unknown">"An unknown error occurred."</string>
+
+    <string name="picsum_image_field_id">Id</string>
+    <string name="picsum_image_field_author">Author</string>
+    <string name="picsum_image_field_width">Width</string>
+    <string name="picsum_image_field_height">Height</string>
+    <string name="picsum_image_field_image_url">Image url</string>
+    <string name="picsum_image_field_download_url">Download url</string>
 </resources>
